@@ -4,13 +4,9 @@ This project showcases a straightforward and budget-friendly RFID-based door loc
 
 This was my mini-project back in college, crafted from the ground up — I didn’t use an Arduino board for deployment. Instead, I programmed the ATmega328P using an Arduino Uno as an ISP programmer, and the whole circuit hand-wired on a breadboard.
 
----
-
 ## Overview
 
 The primary aim of this project was to create a basic access control system utilizing RFID technology, ensuring that access to a door (or any physical barrier) is only granted to recognized RFID tags. The ATmega328P-PU microcontroller checks the UID of the scanned RFID tag against a predefined list of authorized tags and unlocks the solenoid door lock via a relay when there's a match.
-
----
 
 ## Hardware Used
 
