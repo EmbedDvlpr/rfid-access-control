@@ -28,3 +28,9 @@ The primary aim of this project was to create a basic access control system util
 - **Arduino IDE** was used to write and upload the code
 - **Arduino Uno served as the ISP programmer**
 - Coded in Arduino-style C/C
+
+Ensure the following libraries are installed via the **Arduino Library Manager**:
+
+- **MFRC522 by GithubCommunity** – Version `1.4.12`
+- **SPI** – Comes inbuilt 
+- **LiquidCrystal** – Version `1.0.7`
